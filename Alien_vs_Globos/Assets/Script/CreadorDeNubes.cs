@@ -5,7 +5,7 @@ using UnityEngine;
 public class CreadorDeNubes : MonoBehaviour
 {
     public GameObject Nubes;
-    public float tiempoCreacion = 7f, espacioCreacion = 5f;
+    public float tiempoCreacion = 10f, espacioCreacion = 5f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class CreadorDeNubes : MonoBehaviour
         GameObject Nube = Instantiate(Nubes, PosicionCreacion, Quaternion.identity);
 
 
-        Destroy(Nube, 20f);
+        Destroy(Nube, 25f);
     }
 }
 
