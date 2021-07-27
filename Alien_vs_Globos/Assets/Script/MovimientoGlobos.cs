@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class MovimientoGlobos : MonoBehaviour
 {
-    public float velocidad = 1.5f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    public float velocidad = 1f;
+    
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.right * velocidad * Time.deltaTime;
+        transform.position += transform.up * velocidad * Time.deltaTime;
     }
 }
