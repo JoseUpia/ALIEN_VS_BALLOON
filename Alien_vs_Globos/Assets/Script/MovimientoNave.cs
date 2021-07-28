@@ -5,8 +5,7 @@ using UnityEngine;
 public class MovimientoNave : MonoBehaviour
 {
     public float velocidad = 10f;
-    public float velocidad1;
-    public float velocidad2;
+    public GameObject Ondas;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +18,7 @@ public class MovimientoNave : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.position += Vector3.up * velocidad * Time.deltaTime;
+            
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {

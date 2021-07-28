@@ -5,7 +5,7 @@ using UnityEngine;
 public class OndasDebajoDeLaNave : MonoBehaviour
 {
     public GameObject Nave;
-    
+
     // Start is called before the first frame update
     void Start()
     {

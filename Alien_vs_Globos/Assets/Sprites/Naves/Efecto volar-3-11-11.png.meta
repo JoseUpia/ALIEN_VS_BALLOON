@@ -1,37 +1,28 @@
 fileFormatVersion: 2
-guid: 0c28b9be39c1b024b87d4b11f592d3ed
+guid: a48ec48646c3439479aad7b1d7c2c193
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -87142550085135376
-    second: "efecto - exploci\xF3n_Efecto - vuelo_0"
+      213: -1504728314440862874
+    second: Efecto volar-3-11-11_1
   - first:
-      213: -1142168019263890603
-    second: "efecto - exploci\xF3n_Efecto - vuelo_1"
+      213: -4621736046961845762
+    second: Efecto volar-3-11-11_2
   - first:
-      213: -2987049850482640946
-    second: "efecto - exploci\xF3n_Efecto - vuelo_2"
+      213: -4232661369466465696
+    second: Efecto volar-3-11-11_3
   - first:
-      213: 5381530821160117684
-    second: "efecto - exploci\xF3n_Efecto - vuelo_3"
+      213: 8449575534949970816
+    second: Efecto volar-3-11-11_4
   - first:
-      213: -985690215890392256
-    second: "efecto - exploci\xF3n_Efecto - vuelo_5"
+      213: -7693437652973338995
+    second: Efecto volar-3-11-11_5
   - first:
-      213: 2077765049142256191
-    second: "efecto - exploci\xF3n_Efecto - vuelo_6"
+      213: -8631494084819160802
+    second: Efecto volar-3-11-11_6
   - first:
-      213: 3317771802584522004
-    second: "efecto - exploci\xF3n_Efecto - vuelo_7"
-  - first:
-      213: -986390531863147330
-    second: "efecto - exploci\xF3n_Efecto - vuelo_8"
-  - first:
-      213: -6679655923300117801
-    second: "efecto - exploci\xF3n_Efecto - vuelo_10"
-  - first:
-      213: 4315049890643356196
-    second: "efecto - exploci\xF3n_Efecto - vuelo_12"
+      213: -3292272493308697632
+    second: Efecto volar-3-11-11_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_0"
+      name: Efecto volar-3-11-11_1
       rect:
         serializedVersion: 2
-        x: 175
-        y: 1758
-        width: 1209
-        height: 496
+        x: 2406
+        y: 1376
+        width: 1048
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +126,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f39a59ff486acef0800000000000000
-      internalID: -87142550085135376
+      spriteID: 663b74602912e1be0800000000000000
+      internalID: -1504728314440862874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_1"
+      name: Efecto volar-3-11-11_2
       rect:
         serializedVersion: 2
-        x: 1466
-        y: 1754
-        width: 1209
-        height: 531
+        x: 132
+        y: 1373
+        width: 1048
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55bd6f9ec343620f0800000000000000
-      internalID: -1142168019263890603
+      spriteID: ef998336d8b4cdfb0800000000000000
+      internalID: -4621736046961845762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_2"
+      name: Efecto volar-3-11-11_3
       rect:
         serializedVersion: 2
-        x: 2755
-        y: 1710
-        width: 1209
-        height: 598
+        x: 1275
+        y: 1378
+        width: 1048
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7399facfddb86d0800000000000000
-      internalID: -2987049850482640946
+      spriteID: 062de6af8e09245c0800000000000000
+      internalID: -4232661369466465696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_3"
+      name: Efecto volar-3-11-11_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 806
-        width: 1194
-        height: 821
+        x: 3540
+        y: 1357
+        width: 1048
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b5a01fe4c90faa40800000000000000
-      internalID: 5381530821160117684
+      spriteID: 08336876e2ce24570800000000000000
+      internalID: 8449575534949970816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_5"
+      name: Efecto volar-3-11-11_5
       rect:
         serializedVersion: 2
-        x: 1648
-        y: 812
-        width: 851
-        height: 766
+        x: 131
+        y: 478
+        width: 1048
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b664798ff1252f0800000000000000
-      internalID: -985690215890392256
+      spriteID: d8eb8e8573b6b3590800000000000000
+      internalID: -7693437652973338995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_6"
+      name: Efecto volar-3-11-11_6
       rect:
         serializedVersion: 2
-        x: 2771
-        y: 822
-        width: 867
-        height: 736
+        x: 1275
+        y: 477
+        width: 1048
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f32a8d0cd44b5dc10800000000000000
-      internalID: 2077765049142256191
+      spriteID: e11f7798cd5c63880800000000000000
+      internalID: -8631494084819160802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_7"
+      name: Efecto volar-3-11-11_7
       rect:
         serializedVersion: 2
-        x: 2450
-        y: 1078
-        width: 63
-        height: 84
+        x: 2402
+        y: 475
+        width: 1048
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,71 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41d9bda40e71b0e20800000000000000
-      internalID: 3317771802584522004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_8"
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 99
-        width: 730
-        height: 644
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebc0d729903af42f0800000000000000
-      internalID: -986390531863147330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_10"
-      rect:
-        serializedVersion: 2
-        x: 1661
-        y: 120
-        width: 723
-        height: 633
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d2dcddf3581d43a0800000000000000
-      internalID: -6679655923300117801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "efecto - exploci\xF3n_Efecto - vuelo_12"
-      rect:
-        serializedVersion: 2
-        x: 2892
-        y: 100
-        width: 681
-        height: 638
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42aa2ef630322eb30800000000000000
-      internalID: 4315049890643356196
+      spriteID: 0e3ab8c4c9f7f42d0800000000000000
+      internalID: -3292272493308697632
       vertices: []
       indices: 
       edges: []
