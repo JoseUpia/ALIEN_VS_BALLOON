@@ -214,4 +214,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.177769 seconds.
+  path: Assets/Script/Moviendo Nave.cs
+  artifactKey: Guid(0b170b388e69f4f49981f99857e7a14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Moviendo Nave.cs using Guid(0b170b388e69f4f49981f99857e7a14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abfd900dc76294e76bc798d50fd1df1') in 0.003911 seconds 
+  Import took 0.007038 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
