@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: e241187437c146d4cbeee0343a254629
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8334034653898013860
+    second: NaveDisparando_Nave - prueba_0
+  - first:
+      213: -5480100778201794269
+    second: NaveDisparando_Nave - prueba_1
+  - first:
+      213: -685733117574802586
+    second: NaveDisparando_Nave - prueba_2
+  - first:
+      213: -93448611068567431
+    second: NaveDisparando_Nave - prueba_3
+  - first:
+      213: -6903011428971922157
+    second: NaveDisparando_Nave - prueba_4
+  - first:
+      213: 28999232008319305
+    second: NaveDisparando_Nave - prueba_5
+  - first:
+      213: 6805808902478676870
+    second: NaveDisparando_Nave - prueba_6
+  - first:
+      213: 6033921326877061719
+    second: NaveDisparando_Nave - prueba_7
+  - first:
+      213: 9187180698884044607
+    second: NaveDisparando_Nave - prueba_8
+  - first:
+      213: -2090522078645159195
+    second: NaveDisparando_Nave - prueba_9
+  - first:
+      213: -1260951324822545271
+    second: NaveDisparando_Nave - prueba_10
+  - first:
+      213: 7643668548294757379
+    second: NaveDisparando_Nave - prueba_11
+  - first:
+      213: 5645146726015117845
+    second: NaveDisparando_Nave - prueba_12
+  - first:
+      213: 5952393960552796448
+    second: NaveDisparando_Nave - prueba_13
+  - first:
+      213: -439914977249544336
+    second: NaveDisparando_Nave - prueba_14
+  - first:
+      213: -1888046065602484732
+    second: NaveDisparando_Nave - prueba_15
+  - first:
+      213: 1973347904940503486
+    second: NaveDisparando_Nave - prueba_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 66
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3541
+        width: 1209
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acf263bc5078a370800000000000000
+      internalID: 8334034653898013860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_1
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3545
+        width: 1201
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329b0f58065c2f3b0800000000000000
+      internalID: -5480100778201794269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_2
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 3545
+        width: 1193
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6639b3cdc59cb76f0800000000000000
+      internalID: -685733117574802586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2734
+        width: 1183
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970218cbbf004bef0800000000000000
+      internalID: -93448611068567431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_4
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2728
+        width: 1176
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dbaa7dda39330a0800000000000000
+      internalID: -6903011428971922157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_5
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 2728
+        width: 1168
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9417d9ad5a6076000800000000000000
+      internalID: 28999232008319305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_6
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2016
+        width: 1159
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683ce695327137e50800000000000000
+      internalID: 6805808902478676870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_7
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 2016
+        width: 1152
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752392b4a7bccb350800000000000000
+      internalID: 6033921326877061719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_8
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 2016
+        width: 1143
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37fe4c7b2c6f7f70800000000000000
+      internalID: 9187180698884044607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1354
+        width: 1151
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea7e3bde39fcf2e0800000000000000
+      internalID: -2090522078645159195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_10
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1358
+        width: 1160
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cd4ec6373308ee0800000000000000
+      internalID: -1260951324822545271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_11
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 1358
+        width: 1168
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c4fe9fb04c31a60800000000000000
+      internalID: 7643668548294757379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 692
+        width: 1176
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a271db907975e40800000000000000
+      internalID: 5645146726015117845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_13
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 692
+        width: 1184
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0211eed15c62b9250800000000000000
+      internalID: 5952393960552796448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_14
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 696
+        width: 1193
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077baa1b8ab15e9f0800000000000000
+      internalID: -439914977249544336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 97
+        width: 1201
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406a03c4b105cc5e0800000000000000
+      internalID: -1888046065602484732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NaveDisparando_Nave - prueba_16
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 72
+        width: 1210
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb17d3cd67db26b10800000000000000
+      internalID: 1973347904940503486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -35,9 +35,15 @@ public class Disparo : MonoBehaviour
         ColicionGlobo globo = other.collider.GetComponent<ColicionGlobo>();
         ColicionGloboAzul globoAzul = other.collider.GetComponent<ColicionGloboAzul>();
 
-        if(globo != null) globo.Destruir();
-        
-        if (globoAzul != null) globoAzul.Destruir();
+        if(globo != null) 
+        {
+            globo.Destruir();
+                     
+        }
+        else if (globoAzul != null) 
+        {
+            globoAzul.Destruir();
+        }
 
     }
 }
