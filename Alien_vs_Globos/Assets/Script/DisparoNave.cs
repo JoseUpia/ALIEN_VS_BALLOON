@@ -8,11 +8,12 @@ public class DisparoNave : MonoBehaviour
     public GameObject Bala;
     public float TiempoDestruccion; 
     private float LastShoot;
+    Animator NaveDisparando;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        NaveDisparando = GetComponent<Animator>();
     }
 
     // Update is called once per frame

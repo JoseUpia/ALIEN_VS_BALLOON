@@ -37,6 +37,7 @@ public class Barra_de_Vida : MonoBehaviour
         {
             Destroy(this.gameObject);
             GameOver.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 
