@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pausa : MonoBehaviour
 {
-    bool pausa = false;
+
 
     public void pausarJuego()
     {
