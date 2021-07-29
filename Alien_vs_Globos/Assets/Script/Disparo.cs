@@ -33,11 +33,9 @@ public class Disparo : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         ColicionGlobo globo = other.collider.GetComponent<ColicionGlobo>();
-        ColicionGloboAzul globoAzul = other.collider.GetComponent<ColicionGloboAzul>();
 
         if(globo != null) globo.Destruir();
-        
-        if (globoAzul != null) globoAzul.Destruir();
 
+        Destruir();
     }
 }

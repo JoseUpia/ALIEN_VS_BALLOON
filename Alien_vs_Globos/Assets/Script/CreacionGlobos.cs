@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CreacionGlobos : MonoBehaviour
 {
     public GameObject GloboRojo, GloboVerde, GloboAzul, GloboAmarillo;
     public float Destruir;
     public float tiempoCreacion = 10f, espacioCreacion = 10f;
+
+    public Text TextScoor;
+
 
     // Start is called before the first frame update
     void Start()

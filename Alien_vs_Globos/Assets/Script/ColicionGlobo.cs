@@ -6,23 +6,21 @@ using UnityEngine.UI;
 public class ColicionGlobo : MonoBehaviour
 {
     private Rigidbody2D Rb;
-    
-  
+    public int Valor;
 
-    // Start is called before the first frame update
     void Start()
     {
-       
-        
+      
     }
-
-    // Update is called once per frame
+        
     void Update()
     {
-        
+
     }
 
     public void Destruir(){
-        Destroy(gameObject);
+        Puntos.PuntosGet.getPuntos(Valor);
+        Barra_de_Vida.barraVida.masVida();
+        Destroy(gameObject);        
     }
 }

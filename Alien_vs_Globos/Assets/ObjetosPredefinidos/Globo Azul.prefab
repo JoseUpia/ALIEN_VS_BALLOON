@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2744393249378780043}
   - component: {fileID: 2744393249378780046}
   - component: {fileID: 6386814464346141775}
-  - component: {fileID: 375204427160765813}
   - component: {fileID: -3975446013777232413}
+  - component: {fileID: 2242472430849826133}
   m_Layer: 0
   m_Name: Globo Azul
   m_TagString: Untagged
@@ -135,18 +135,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 1.2844131}
   m_Size: {x: 2.5210469, y: 3.0211813}
   m_Direction: 0
---- !u!114 &375204427160765813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2744393249378780042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7a082644f0c7de4cb707f4345a87d49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &-3975446013777232413
 Rigidbody2D:
   serializedVersion: 4
@@ -168,3 +156,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2242472430849826133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2744393249378780042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 098c10e0c7513214b836d8a3a2282250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valor: 10
