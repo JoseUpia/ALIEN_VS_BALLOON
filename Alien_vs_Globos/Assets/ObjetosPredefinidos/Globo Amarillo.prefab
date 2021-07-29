@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 4868878897073932689}
   - component: {fileID: 4868878897073932688}
   - component: {fileID: 4868878897073932687}
+  - component: {fileID: 786891354651789554}
+  - component: {fileID: 5249476606227947769}
+  - component: {fileID: 3816284788150888225}
   m_Layer: 0
   m_Name: Globo Amarillo
   m_TagString: Untagged
@@ -116,3 +119,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 1
+--- !u!70 &786891354651789554
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868878897073932686}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1.2525682}
+  m_Size: {x: 2.5210469, y: 3.084871}
+  m_Direction: 0
+--- !u!114 &5249476606227947769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868878897073932686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 098c10e0c7513214b836d8a3a2282250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &3816284788150888225
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4868878897073932686}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

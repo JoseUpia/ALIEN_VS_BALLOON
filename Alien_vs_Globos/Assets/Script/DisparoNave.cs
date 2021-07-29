@@ -6,7 +6,7 @@ public class DisparoNave : MonoBehaviour
 {
     public Transform disparo;
     public GameObject Bala;
-
+    public float TiempoDestruccion; 
     private float LastShoot;
 
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class DisparoNave : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShoot + 0.75f)
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShoot + TiempoDestruccion)
         {
             Instantiate(Bala, disparo.position, Quaternion.identity);
              LastShoot = Time.time;
