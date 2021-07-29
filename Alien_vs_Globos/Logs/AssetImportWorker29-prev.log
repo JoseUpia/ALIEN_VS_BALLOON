@@ -15,11 +15,11 @@ C:/Users/Jose Miguel Upia/Documents/GitHub/ALIEN_VS_BALLOON/Alien_vs_Globos
 -logFile
 Logs/AssetImportWorker29.log
 -srvPort
-51750
+49601
 Successfully changed project path to: C:/Users/Jose Miguel Upia/Documents/GitHub/ALIEN_VS_BALLOON/Alien_vs_Globos
 C:/Users/Jose Miguel Upia/Documents/GitHub/ALIEN_VS_BALLOON/Alien_vs_Globos
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1064.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1872.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,5 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
