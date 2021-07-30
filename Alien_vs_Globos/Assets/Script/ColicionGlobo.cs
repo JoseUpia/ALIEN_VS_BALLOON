@@ -7,11 +7,13 @@ public class ColicionGlobo : MonoBehaviour
     private Rigidbody2D Rb;
     public int Valor;
     Animator AnimacionGlobos;
+    public AudioSource ControlSonido;
 
     void Start()
     {
         Rb = GetComponent<Rigidbody2D>();
         AnimacionGlobos = GetComponent<Animator>();   
+        ControlSonido = GetComponent<AudioSource>();
     }
         
     void Update()
@@ -25,5 +27,9 @@ public class ColicionGlobo : MonoBehaviour
         Barra_de_Vida.barraVida.masVida();       
         AnimacionGlobos.SetBool("Explotar", true);            
         Destroy(gameObject, 1);
+<<<<<<< HEAD
+=======
+        ControlSonido.Play();
+>>>>>>> 969bb969bdd0f36aa162c892685d98d42046a27e
     }
 }
