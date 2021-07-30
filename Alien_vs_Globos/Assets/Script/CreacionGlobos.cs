@@ -9,9 +9,6 @@ public class CreacionGlobos : MonoBehaviour
     public float Destruir;
     public float tiempoCreacion = 10f, espacioCreacion = 10f;
 
-    public Text TextScoor;
-
-
     // Start is called before the first frame update
     void Start()
     {
