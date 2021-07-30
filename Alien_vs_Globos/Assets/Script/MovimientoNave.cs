@@ -24,7 +24,7 @@ public class MovimientoNave : MonoBehaviour
     void Update()
     {
         Ondas.color = ColorOndasEstables;
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow) )
         {
             transform.position += Vector3.up * velocidad * Time.deltaTime;
             //Ondas = GetComponent<SpriteRenderer>();

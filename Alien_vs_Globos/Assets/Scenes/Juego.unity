@@ -159,6 +159,7 @@ MonoBehaviour:
   Destruir: 20
   tiempoCreacion: 5
   espacioCreacion: 4
+  TextScoor: {fileID: 0}
 --- !u!4 &5203840
 Transform:
   m_ObjectHideFlags: 0
@@ -3620,6 +3621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4b561d9aa075149929e0f25709f874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  punto: 0
 --- !u!4 &1705256139
 Transform:
   m_ObjectHideFlags: 0
@@ -3960,5 +3962,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Barradevida: {fileID: 2118224109}
+  AumentarVida: 0.4
   dano: 0.0002
   GameOver: {fileID: 1559137806}
