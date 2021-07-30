@@ -4059,10 +4059,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Barradevida: {fileID: 2118224109}
-<<<<<<< HEAD
   AumentarVida: 0.4
-=======
-  AumentarVida: 0
->>>>>>> 969bb969bdd0f36aa162c892685d98d42046a27e
   dano: 0.0002
   GameOver: {fileID: 1559137806}
