@@ -10,7 +10,7 @@ public class ColicionGlobo : MonoBehaviour
 
     void Start()
     {
-      
+        Rb = GetComponent<Rigidbody2D>();
         AnimacionGlobos = GetComponent<Animator>();   
     }
         
@@ -20,10 +20,10 @@ public class ColicionGlobo : MonoBehaviour
     }
 
     public void Destruir(){
+        //Rb.bodyType = RigidbodyType2D.Static;
         Puntos.PuntosGet.getPuntos(Valor);
         Barra_de_Vida.barraVida.masVida();       
-        AnimacionGlobos.SetBool("Explotar", true);   
+        AnimacionGlobos.SetBool("Explotar", true);            
         Destroy(gameObject, 1);
-        
     }
 }
