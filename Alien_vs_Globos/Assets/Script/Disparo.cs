@@ -7,11 +7,14 @@ public class Disparo : MonoBehaviour
     private Rigidbody2D Rb;
     public float Velocidad;
     public float TiempoDestruir;
+    public AudioSource ControlSonido;
+    public AudioClip SonidoDisparo;
    
     // Start is called before the first frame update
     void Start()
     {
-        Rb = GetComponent<Rigidbody2D>();   
+        Rb = GetComponent<Rigidbody2D>();
+        ControlSonido.PlayOneShot(SonidoDisparo);
     }
 
     // Update is called once per frame
