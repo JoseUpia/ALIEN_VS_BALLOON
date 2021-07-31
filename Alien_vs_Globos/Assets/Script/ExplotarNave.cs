@@ -7,6 +7,8 @@ public class ExplotarNave : MonoBehaviour
 {
     Animator NaveExplotando;
     public static ExplotarNave explotarNave;
+    public AudioSource ControlSonido;
+    public AudioClip SonidoExplosion;
 
     void Awake()
     {
@@ -16,6 +18,7 @@ public class ExplotarNave : MonoBehaviour
     void Start()
     {
         NaveExplotando = GetComponent<Animator>();
+        //ControlSonido.PlayOneShot(SonidoExplosion);
     }
 
     // Update is called once per frame
@@ -32,6 +35,6 @@ public class ExplotarNave : MonoBehaviour
 
         NaveExplotando.SetBool("Explotar", true);
         Destroy(gameObject, 1);
-
+        ControlSonido.PlayOneShot(SonidoExplosion);
     }
 }
