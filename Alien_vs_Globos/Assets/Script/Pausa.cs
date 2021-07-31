@@ -10,6 +10,7 @@ public class Pausa : MonoBehaviour
     {
         Time.timeScale = 0;
     }
+    
     public void reanudarJuego()
     {
         Time.timeScale = 1;

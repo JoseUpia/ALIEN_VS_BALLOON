@@ -10,6 +10,7 @@ public class Puntos : MonoBehaviour
    private Text m_MyText;
    public int punto = 0;
    public static Puntos PuntosGet;
+   
 
    /// <summary>
    /// Awake is called when the script instance is being loaded.
@@ -33,11 +34,11 @@ public class Puntos : MonoBehaviour
         }
     }
 
-    public void getPuntos(int num){
+    public void SetPuntos(int num){
         punto += num;
     }
 
-    public int setPuntos(){
+    public int GetPuntos(){
         return punto;
     }
 }

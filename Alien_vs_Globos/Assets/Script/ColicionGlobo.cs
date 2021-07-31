@@ -23,7 +23,7 @@ public class ColicionGlobo : MonoBehaviour
 
     public void Destruir(){
         //Rb.bodyType = RigidbodyType2D.Static;
-        Puntos.PuntosGet.getPuntos(Valor);
+        Puntos.PuntosGet.SetPuntos(Valor);
         Barra_de_Vida.barraVida.masVida();       
         AnimacionGlobos.SetBool("Explotar", true);            
         Destroy(gameObject, 1);

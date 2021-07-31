@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
+
 public class Barra_de_Vida : MonoBehaviour
 {
     public Scrollbar Barradevida;
@@ -12,36 +14,43 @@ public class Barra_de_Vida : MonoBehaviour
 
     public static Barra_de_Vida barraVida;
 
-   /// <summary>
-   /// Awake is called when the script instance is being loaded.
-   /// </summary>
-   void Awake()
-   {
-       barraVida = this;
-   }
-
-
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
     {
-
+        barraVida = this;
     }
 
-    // Update is called once per frame
+    void Start()
+    {
+        
+    }
+
     void Update()
     {
         Barradevida.size = vida;
         vida -= dano;
-        if (vida > 1) vida = 1;
-        if (vida <=0)
+        if (Time.timeScale == 0)
         {
-            Destroy(this.gameObject);
+            vida += dano;
+        }
+        else if (vida > 1) 
+        {
+            vida = 1;
+        }
+        else if (vida <=0)
+        {
             GameOver.SetActive(true);
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
         }
     }
 
     public void masVida(){
         vida += AumentarVida;
+    }
+    public float CantidadVida()
+    {
+        return vida;
     }
 }
