@@ -7,15 +7,15 @@ public class CreacionGlobos : MonoBehaviour
 {
     public GameObject GloboRojo, GloboVerde, GloboAzul, GloboAmarillo;
     public float Destruir;
-    public float tiempoCreacion = 10f, espacioCreacion = 10f;
+    public float tiempoCreacion, espacioCreacion;
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("CreandoGloboRojo", 0.0f, tiempoCreacion);
+        InvokeRepeating("CreandoGloboRojo", 0.9f, tiempoCreacion);
         InvokeRepeating("CreandoGloboVerde", 0.5f, tiempoCreacion);
-        InvokeRepeating("CreandoGloboAzul", 1.5f, tiempoCreacion);
-        InvokeRepeating("CreandoGloboAmarillo", 0.2f, tiempoCreacion);
+        InvokeRepeating("CreandoGloboAzul", 3.0f, tiempoCreacion);
+        InvokeRepeating("CreandoGloboAmarillo", 1.0f, tiempoCreacion);
     }
 
     public void CreandoGloboRojo()

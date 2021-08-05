@@ -10,7 +10,7 @@ public class MovimientoFondoLevel2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        AudioListener.pause = false;
     }
 
     // Update is called once per frame

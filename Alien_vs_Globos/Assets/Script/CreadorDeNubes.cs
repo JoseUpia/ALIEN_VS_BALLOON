@@ -11,6 +11,7 @@ public class CreadorDeNubes : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AudioListener.pause = false;
         InvokeRepeating("CreandoNube1", 1f, tiempoCreacion);
         InvokeRepeating("CreandoNube2", 0.0f, tiempoCreacion);
         InvokeRepeating("CreandoNube3", 1f, tiempoCreacion);
